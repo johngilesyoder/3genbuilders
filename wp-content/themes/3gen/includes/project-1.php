@@ -14,6 +14,7 @@
     <button class="project-hero-action btn btn-primary" type="button" data-toggle="modal" data-target="#modal-reserve-1">
       <strong>Reserve Now</strong>
     </button>
+    <span class="images-disclaimer">Images and finishes may vary from available unit(s).</span>
   </div>
   <div class="project-thumbs">
     <div class="container-fluid">

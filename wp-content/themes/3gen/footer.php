@@ -6,7 +6,7 @@
                 <div class="footer-contact">
                   <img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-white.svg" alt="3Gen Builders">
                   <address class="footer-address">
-                    1 Greenbriar Court<br>
+                    1 Greenbrier Court<br>
                     Missoula, MT 59802
                   </address>
                   <a class="footer-phone" href="tel:4065438154">(406) 543-8154</a>
