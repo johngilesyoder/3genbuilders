@@ -1,0 +1,1 @@
+!function($,e,t){$(function(){"use strict";$(".swipebox").swipebox({loopAtEnd:!0,hideBarsDelay:0}),$(".thumbs-carousel").flickity({cellAlign:"left",contain:!0,pageDots:!1,cellSelector:".carousel-thumb"})})}(jQuery,this);

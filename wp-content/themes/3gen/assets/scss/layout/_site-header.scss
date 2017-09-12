@@ -1,0 +1,197 @@
+// site-header.scss
+// -----------------------------------------------------------------
+
+.site-header {
+  border: 0;
+  .navbar-header {
+    .navbar-brand {
+      margin-left: -30px;
+      background: $maroon;
+      padding: 15px 30px;
+      .logo {
+        height: 60px;
+      }
+    }
+    .phone-number {
+      color: #fff;
+      height: 90px;
+      display: flex;
+      align-items: center;
+      float: right;
+      font-size: 24px;
+      letter-spacing: 1px;
+      margin-left: 60px;
+      i {
+        margin-right: 10px;
+      }
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    .brand-statement {
+      color: #fff;
+      height: 90px;
+      display: flex;
+      align-items: center;
+      float: right;
+      font-size: 18px;
+      letter-spacing: .5px;
+      margin-left: 30px;
+    }
+  }
+  .navbar-nav {
+    & > li {
+      & > a {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+    }
+    .dropdown-toggle {
+      padding-top: 26.5px;
+      padding-bottom: 26.5px;
+    }
+    .projects-dropdown {
+      .dropdown-toggle-text {
+        border: 1px solid rgba(255,255,255,.25);
+        border-radius: 6px;
+        padding: 5px 12px;
+        display: flex;
+        align-items: center;
+      }
+      &.open {
+        .dropdown-toggle-text {
+          background: #fff;
+          color: $grey-dark;
+        }
+      }
+    }
+  }
+}
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .site-header {
+    .navbar-header {
+      .brand-statement {
+        display: none;
+      }
+    }
+  }
+
+}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .site-header {
+    height: 60px;
+    min-height: 60px;
+    .navbar-header {
+      .navbar-brand {
+        margin-left: -15px;
+        padding: 10px 15px;
+        height: 60px;
+        .logo {
+          height: 40px;
+        }
+      }
+      .phone-number {
+        margin-left: 30px;
+        height: 60px;
+      }
+      .brand-statement {
+        display: none;
+        height: 60px;
+      }
+    }
+    .navbar-nav {
+      .dropdown-toggle {
+        padding-top: 11.5px;
+        padding-bottom: 11.5px;
+      }
+    }
+  }
+
+}
+
+// Up to tablet
+@media (max-width: 767px) {
+
+  .site-header {
+    min-height: 60px;
+    .navbar-header {
+      .navbar-brand {
+        margin-left: -15px;
+        padding: 10px 15px;
+        height: 60px;
+        .logo {
+          height: 40px;
+        }
+      }
+      .navbar-toggle {
+        margin-top: 13px;
+        margin-bottom: 13px;
+      }
+      .phone-number {
+        margin-left: 0;
+        margin-right: 15px;
+        height: 60px;
+        font-size: 18px;
+      }
+      .brand-statement {
+        display: none;
+        height: 60px;
+      }
+    }
+    .navbar-nav {
+      .dropdown-toggle {
+        padding-top: 11.5px;
+        padding-bottom: 11.5px;
+      }
+    }
+  }
+
+}
+
+// Up to landscape phone
+@media (max-width: 480px) {
+
+  .site-header {
+    min-height: 50px;
+    .navbar-header {
+      .navbar-brand {
+        padding: 7.5px 15px;
+        height: 50px;
+        .logo {
+          height: 30px;
+        }
+      }
+      .navbar-toggle {
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+      .phone-number {
+        height: 50px;
+        font-size: 16px;
+        i {
+          display: none;
+        }
+      }
+    }
+    .navbar-nav {
+      .dropdown-toggle {
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
+    }
+  }
+
+}

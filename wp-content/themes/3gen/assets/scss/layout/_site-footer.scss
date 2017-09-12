@@ -1,0 +1,169 @@
+// site-footer.scss
+// -----------------------------------------------------------------
+
+.site-footer {
+  background: $grey-dark;
+  color: #fff;
+  .footer-main {
+    padding: $base-margin-lg 0;
+    .footer-contact {
+      font-size: 13px;
+      letter-spacing: 1.75px;
+      a {
+        color: #fff;
+        display: inline-block;
+      }
+      .footer-logo {
+        margin: 0 0 30px;
+      }
+      .footer-address,
+      .footer-email {
+        text-transform: uppercase;
+      }
+      .footer-address,
+      .footer-phone {
+        margin: 0 0 20px;
+      }
+      .footer-email {
+        margin: 0 0 30px;
+      }
+      .footer-houzz {
+        img {
+          height: 40px;
+          margin-right: 5px;
+        }
+      }
+    }
+    .footer-mailing-list {
+      h4 {
+        margin: 0 0 30px;
+        color: #ADADAD;
+        font-size: 18px;
+        letter-spacing: .5px;
+        display: flex;
+        line-height: 1.25;
+        i {
+          margin-right: 10px;
+          vertical-align: middle;
+        }
+      }
+      .gform_wrapper {
+        .gform_button {
+          display: block;
+          width: 100%;
+        }
+        input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="button"]):not([type="image"]):not([type="file"]),
+        textarea {
+          border: 0
+        }
+        .validation_error {
+          color: lighten($state-danger-text, 10%);
+          border: 0;
+        }
+        .gfield {
+          &.gfield_error,
+          &.gfield_contains_required.gfield_creditcard_warning {
+            background: transparent;
+            border: 0;
+            padding: 0;
+            .gfield_label {
+              color: lighten($state-danger-text, 10%);
+            }
+          }
+        }
+        .field_description_below .gfield_description {
+          //padding: 0;
+          color: lighten($state-danger-text, 10%);
+        }
+        .ginput_complex {
+          & + .gfield_description {
+            padding: 0;
+          }
+        }
+        &.gform_validation_error .field_sublabel_below .ginput_complex.ginput_container label {
+          color: lighten($state-danger-text, 10%);
+        }
+      }
+    }
+  }
+  .footer-copyright {
+    border-top: 1px solid rgba(255,255,255,.17);
+    padding: 30px 0;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: .5px;
+  }
+}
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .site-footer {
+
+  }
+
+}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .site-footer {
+    .footer-main {
+      padding: $base-margin-md 0;
+      .footer-contact {
+        margin: 0 0 40px;
+        border-bottom: 1px solid rgba(255,255,255,.1);
+        padding-bottom: $base-margin-sm;
+        font-size: 16px;
+      }
+    }
+  }
+
+}
+
+// Up to tablet
+@media (max-width: 767px) {
+
+  .site-footer {
+    .footer-main {
+      padding: $base-margin-sm 0;
+      .footer-contact {
+        margin: 0 0 40px;
+        border-bottom: 1px solid rgba(255,255,255,.1);
+        padding-bottom: $base-margin-sm;
+        font-size: 16px;
+      }
+    }
+  }
+
+}
+
+// Up to landscape phone
+@media (max-width: 480px) {
+
+  .site-footer {
+    .footer-main {
+      padding: $base-margin-xs 0;
+      .footer-contact {
+        margin: 0 0 30px;
+        padding-bottom: $base-margin-xs;
+        font-size: 18px;
+      }
+      .footer-mailing-list {
+        h4 {
+          font-size: 18px;
+          i {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+}

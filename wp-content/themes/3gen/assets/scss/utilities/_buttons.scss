@@ -1,0 +1,73 @@
+// buttons.scss
+// -----------------------------------------------------------------
+
+.btn-strip {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  outline: none;
+}
+
+.btn {
+  font-family: $font-family-sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1.75px;
+  padding: 10px 30px;
+  border-radius: 4px;
+}
+
+// .btn-primary {
+//   background-color: #6E9C5C;
+//   #gradient > .vertical(#80B068,#659457);
+//   border-color: transparent;
+//   font-size: 24px;
+//   font-weight: 700;
+//   &:hover {
+//     background: #659457;
+//     border-color: transparent;
+//   }
+//   &:active {
+//     background: #659457;
+//     border-color: transparent;
+//     &:hover {
+//       background: #659457;
+//       border-color: transparent;
+//     }
+//   }
+//   &:disabled {
+//     background-color: #6E9C5C;
+//     border-color: transparent;
+//     &:hover {
+//       background: #659457;
+//       border-color: transparent;
+//     }
+//   }
+// }
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {
+
+  .btn {
+    padding: 10px 20px;
+  }
+
+}
+
+// Up to landscape phone
+@media (max-width: 480px) {}

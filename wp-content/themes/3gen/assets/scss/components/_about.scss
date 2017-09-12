@@ -1,0 +1,56 @@
+.section-about {
+  background-color: $taupe-bg;
+  padding: $base-margin-lg 0;
+  h3 {
+    font-family: $font-family-serif;
+    margin: 0 0 30px;
+    font-size: 46px;
+    line-height: 1.25;
+    text-align: center;
+  }
+}
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .section-about {
+    padding: $base-margin-md 0;
+  }
+
+}
+
+// Up to tablet
+@media (max-width: 767px) {
+
+  .section-about {
+    padding: $base-margin-sm 0;
+    h3 {
+      font-size: 36px;
+      line-height: 1.25;
+    }
+  }
+
+}
+
+// Up to landscape phone
+@media (max-width: 480px) {
+
+  .section-about {
+    padding: $base-margin-xs 0;
+    h3 {
+      font-size: 30px;
+      line-height: 1.25;
+      margin: 0 0 15px;
+    }
+  }
+
+}

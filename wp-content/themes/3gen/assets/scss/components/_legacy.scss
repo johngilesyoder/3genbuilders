@@ -1,0 +1,56 @@
+.section-legacy {
+  background-image: url('assets/img/legacy-bg.jpg');
+  background-size: cover;
+  background-position: 50% 35%;
+  padding: 130px 25%;
+  text-align: center;
+  h3 {
+    font-family: $font-family-serif;
+    margin: 0;
+    color: #fff;
+    font-size: 46px;
+    line-height: 1.25;
+  }
+}
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .section-legacy {
+    padding: $base-margin-md 10%;
+  }
+
+}
+
+// Up to tablet
+@media (max-width: 767px) {
+
+  .section-legacy {
+    padding: $base-margin-sm 60px;
+    h3 {
+      font-size: 36px;
+    }
+  }
+
+}
+
+// Up to landscape phone
+@media (max-width: 480px) {
+
+  .section-legacy {
+    padding: $base-margin-xs 30px;
+    h3 {
+      font-size: 30px;
+    }
+  }
+
+}

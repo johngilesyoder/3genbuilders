@@ -18,8 +18,8 @@ wp-content/cache/*
 wp-content/cache/supercache/*
 wp-content/themes/*
 /wp-content/themes/*
-!wp-content/themes/cluney/
-!/wp-content/themes/cluney/
+!wp-content/themes/3gen/
+!/wp-content/themes/3gen/
 wp-content/plugins/*
 wp-content/plugins/*
 /wp-content/plugins/*

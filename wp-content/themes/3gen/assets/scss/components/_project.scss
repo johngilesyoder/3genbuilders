@@ -1,0 +1,423 @@
+.project {
+  padding: 0 0;
+  border-bottom: 15px solid $grey-dark;
+  .project-hero {
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 30px;
+    .project-hero-content {
+      z-index: 10;
+      color: #fff;
+      padding-bottom: 60px;
+      width: 100%;
+      .project-title-subtext {
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 2.2px;
+        margin: 0 0 5px;
+        font-weight: 700;
+      }
+      .project-title {
+        font-size: 70px;
+        font-family: $font-family-serif;
+        margin: 0 0 30px;
+        letter-spacing: -.5px;
+        color: #fff;
+      }
+      .project-price {
+        font-size: 14px;
+        letter-spacing: 2.2px;
+        text-transform: uppercase;
+        font-weight: 700;
+        strong {
+          font-family: $font-family-serif;
+          font-size: 44px;
+          letter-spacing: 0;
+          text-transform: none;
+          font-weight: 400;
+          margin-left: 10px;
+        }
+      }
+    }
+    .project-hero-action {
+      position: absolute;
+      right: 0;
+      bottom: 60px;
+      font-size: 14px;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      z-index: 10;
+      strong {
+        display: block;
+      }
+      span {
+        font-weight: 400;
+        text-transform: none;
+        letter-spacing: 1px;
+      }
+      &.under-contract {
+        background: $maroon;
+        color: #fff;
+        padding-top: 23px;
+        padding-bottom: 23px;
+        cursor: default;
+      }
+    }
+    .images-disclaimer {
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      background: rgba(0,0,0,.36);
+      color: #fff;
+      font-size: 14px;
+      padding: 5px 12px;
+    }
+    &:before {
+      content: '';
+      @include gradient-horizontal(rgba(0,0,0,.4), rgba(0,0,0,.1), 0%, 100%);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .project-thumbs {
+    margin: 0 0 60px;
+    .carousel-thumb {
+      width: calc(16.6666% - 30px); /* half-width */
+      height: 105px;
+      margin-right: 30px;
+      a {
+        width: 100%;
+        height: 100%;
+        display: block;
+        background-size: cover;
+        background-position: center;
+        border: 1px solid rgba(0,0,0,.1);
+      }
+    }
+    .flickity-prev-next-button {
+      &:disabled {
+        opacity: 0;
+      }
+    }
+  }
+  .project-description {
+    margin: 0 0 60px;
+    .project-location {
+      margin-top: 30px;
+      font-style: italic;
+      .map-link {
+        font-style: normal;
+        i {
+          vertical-align: middle;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  .project-tagline {
+    background: $taupe-bg;
+    font-size: 51px;
+    padding: 90px;
+    font-family: $font-family-serif;
+    line-height: 1.25;
+    margin: 0 0 60px;
+  }
+  .project-agent {
+    h3 {
+      font-size: 30px;
+      font-weight: 700;
+      margin: 0 0 30px;
+    }
+    .agent-info {
+      display: flex;
+      align-items: center;
+      margin: 0 0 30px;
+      .agent-photo {
+        margin-right: 30px;
+        width: 66px;
+      }
+      .agent-content {
+        .agent-name {
+          font-size: 21px;
+          font-weight: 700;
+          margin: 0;
+        }
+        .agent-company {
+          font-size: 14px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          font-weight: 700;
+        }
+      }
+    }
+    .form-wrapper {
+      .gfield_label {
+        display: none !important;
+      }
+      .ginput_container {
+        position: relative;
+        input {
+          padding-left: 45px !important;
+        }
+        &:before {
+          font-family: 'Material Icons';
+          font-weight: normal;
+          font-style: normal;
+          font-size: 24px;
+          line-height: 1;
+          letter-spacing: normal;
+          text-transform: none;
+          display: inline-block;
+          white-space: nowrap;
+          word-wrap: normal;
+          direction: ltr;
+          -webkit-font-feature-settings: 'liga';
+          -webkit-font-smoothing: antialiased;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 12px;
+          color: $headings-color;
+        }
+      }
+      .gform_button {
+        display: block;
+        width: 100%;
+      }
+      #field_2_5 {
+        .ginput_container {
+          &:before {
+            content: '\E7FD';
+          }
+        }
+      }
+      #field_2_2 {
+        .ginput_container {
+          &:before {
+            content: '\E0CD';
+          }
+        }
+      }
+      #field_2_3 {
+        .ginput_container {
+          &:before {
+            content: '\E0BE';
+          }
+        }
+      }
+    }
+  }
+}
+
+.project-3 {
+  border: 0;
+}
+
+#swipebox-slider {
+  .slide {
+    padding: 90px;
+    img {
+      border-radius: 5px;
+      border: 8px solid #000 !important;
+    }
+  }
+}
+
+#swipebox-overlay {
+	background: rgba(30,37,43,.9);
+}
+
+#swipebox-bottom-bar,
+#swipebox-top-bar {
+	text-shadow: 1px 1px 1px black;
+	background: darken($grey-dark, 5%);
+	opacity: 1;
+}
+
+#swipebox-bottom-bar {
+	//border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#swipebox-top-bar {
+	//border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	color: white!important;
+	font-size: 15px;
+	line-height: 43px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .project {
+    .project-hero {
+      height: 450px;
+    }
+    .project-thumbs {
+      .carousel-thumb {
+        width: 33%;
+        height: 135px;
+        margin-right: 15px;
+      }
+    }
+    .project-tagline {
+      padding: 40px;
+      font-size: 42px;
+    }
+    .project-agent {
+      margin-bottom: 60px;
+    }
+  }
+
+}
+
+// Up to tablet
+@media (max-width: 767px) {
+
+  .project {
+    .project-hero {
+      display: block;
+      height: auto;
+      padding: 120px 15px 15px;
+      .project-hero-content {
+        padding-bottom: 0;
+        margin-left: -15px;
+        margin-right: -15px;
+        .project-title-subtext {
+
+        }
+        .project-title {
+          font-size: 36px;
+          margin: 0 0 15px;
+        }
+        .project-price {
+          margin: 0 0 15px;
+          display: block;
+          strong {
+            font-size: 30px;
+            margin-left: 0;
+            display: block;
+          }
+        }
+      }
+      .project-hero-action {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        font-size: 14px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 12px;
+        display: block;
+        width: 100%;
+        padding-bottom: 12px;
+        strong {
+          display: block;
+        }
+      }
+      .images-disclaimer {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-top: 15px;
+        display: block;
+      }
+      &:before {
+        content: '';
+        @include gradient-horizontal(rgba(0,0,0,.4), rgba(0,0,0,.1), 0%, 100%);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .project-thumbs {
+      margin: 0 0 40px;
+      .carousel-thumb {
+        width: 50%;
+        height: 135px;
+        margin-right: 15px;
+      }
+    }
+    .project-description {
+      margin: 0 0 40px;
+    }
+    .project-tagline {
+      padding: 40px;
+      font-size: 36px;
+      margin: 0 0 40px;
+    }
+    .project-agent {
+      margin-bottom: 40px;
+    }
+  }
+
+  #swipebox-slider {
+    .slide {
+      padding: 15px;
+      img {
+        border-radius: 5px;
+        border: 8px solid #000 !important;
+      }
+    }
+  }
+
+}
+
+// Up to landscape phone
+@media (max-width: 480px) {
+
+  .project {
+    .project-hero {
+      .project-hero-content {
+        .project-title {
+          br {
+            display: none;
+          }
+        }
+      }
+    }
+    .project-thumbs {
+      .carousel-thumb {
+        width: 75%;
+      }
+    }
+    .project-description {
+      margin: 0 0 30px;
+    }
+    .project-tagline {
+      padding: 30px;
+      font-size: 30px;
+      margin: 0 0 30px;
+    }
+    .project-agent {
+      margin-bottom: 30px;
+    }
+  }
+
+}
