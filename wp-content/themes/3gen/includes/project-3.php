@@ -1,5 +1,5 @@
 <article id="project-3" class="project project-3">
-  <div class="project-hero" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/img/cottages-lindavista/cottages-lindavista-hero.jpg');">
+  <div class="project-hero" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/img/cottages-lindavista/3.jpg');">
     <div class="project-hero-content">
       <div class="container-fluid">
         <div class="row">
@@ -21,6 +21,12 @@
     <div class="container-fluid">
 
       <div class="thumbs-carousel">
+        <div class="carousel-thumb">
+          <a rel="gallery-3" href="<?php echo get_template_directory_uri(); ?>/assets/img/cottages-lindavista/4.jpg" class="swipebox" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/img/cottages-lindavista/4.jpg');"></a>
+        </div>
+        <div class="carousel-thumb">
+          <a rel="gallery-3" href="<?php echo get_template_directory_uri(); ?>/assets/img/cottages-lindavista/5.jpg" class="swipebox" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/img/cottages-lindavista/5.jpg');"></a>
+        </div>
         <div class="carousel-thumb">
           <a rel="gallery-3" href="<?php echo get_template_directory_uri(); ?>/assets/img/cottages-lindavista/1.jpg" class="swipebox" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/img/cottages-lindavista/1.jpg');"></a>
         </div>
