@@ -11,9 +11,9 @@
                   </address>
                   <a class="footer-phone" href="tel:4065438154">(406) 543-8154</a>
                   <a class="footer-email" href="mailto:paul@3genbuilders.com">paul@3genbuilders.com</a>
-                  <div class="footer-houzz">
+                  <a href="https://www.houzz.com/buttonsAndBadges" class="footer-houzz">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-houzz.svg" alt="Houzz"> Check us out on Houzz
-                  </div>
+                  </a>
                 </div>
               </div>
               <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-1 col-lg-5">
