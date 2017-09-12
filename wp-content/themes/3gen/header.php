@@ -62,7 +62,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <span class="brand-statement">Missoula's affordable homebuilders for over 70 years.</span>
+          <span class="brand-statement">Missoula's affordable homebuilders for over 60 years.</span>
           <a href="tel:4062409857" class="phone-number"><i class="material-icons">phone</i> (406) 240-9857</a>
           <!-- Site logo -->
           <a class="navbar-brand" href="/">
