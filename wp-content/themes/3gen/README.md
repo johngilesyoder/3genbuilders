@@ -1,6 +1,6 @@
 # cluneyphoto.com
 
-Wordpress website for Cluney Photo built using [HTML5 Blank](http://html5blank.com).
+Wordpress website for 3Gen Builders built using [HTML5 Blank](http://html5blank.com).
 
 To get started:
 
