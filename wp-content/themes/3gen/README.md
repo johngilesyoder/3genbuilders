@@ -1,4 +1,4 @@
-# cluneyphoto.com
+# 3Gen Builders
 
 Wordpress website for 3Gen Builders built using [HTML5 Blank](http://html5blank.com).
 
