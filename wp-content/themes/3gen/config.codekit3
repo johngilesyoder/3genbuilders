@@ -2514,16 +2514,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/icons\/logo-dark.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/icons\/logo-dark.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/assets\/icons\/touch.png": {
 		"ft": 32768,
 		"iS": 4551,
@@ -2533,6 +2523,36 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/cottages-lindavista\/1.jpg": {
+		"ft": 16384,
+		"iS": 40514,
+		"oA": 0,
+		"oAP": "\/assets\/img\/cottages-lindavista\/1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/cottages-lindavista\/2.jpg": {
+		"ft": 16384,
+		"iS": 98273,
+		"oA": 0,
+		"oAP": "\/assets\/img\/cottages-lindavista\/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/cottages-lindavista\/cottages-lindavista-hero.jpg": {
+		"ft": 16384,
+		"iS": 218905,
+		"oA": 0,
+		"oAP": "\/assets\/img\/cottages-lindavista\/cottages-lindavista-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/img\/icon-houzz.svg": {
@@ -2545,6 +2565,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/img\/icons.png": {
+		"ft": 32768,
+		"iS": 381,
+		"oA": 0,
+		"oAP": "\/assets\/img\/icons.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/icons.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2555,6 +2586,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/img\/legacy-bg.jpg": {
+		"ft": 16384,
+		"iS": 73111,
+		"oA": 0,
+		"oAP": "\/assets\/img\/legacy-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/loader.gif": {
 		"ft": 4194304,
 		"iS": 2608,
@@ -2562,6 +2603,16 @@
 		"oAP": "\/assets\/img\/loader.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/assets\/img\/logo-dark.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/logo-dark.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/assets\/img\/logo-white.svg": {
 		"ft": 2097152,
@@ -2572,6 +2623,159 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/img\/project-1-bg.jpg": {
+		"ft": 16384,
+		"iS": 397939,
+		"oA": 0,
+		"oAP": "\/assets\/img\/project-1-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/roberta-drive\/1.JPG": {
+		"ft": 16384,
+		"iS": 347470,
+		"oA": 0,
+		"oAP": "\/assets\/img\/roberta-drive\/1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/img\/roberta-drive\/10.png": {
+		"ft": 32768,
+		"iS": 46668,
+		"oA": 0,
+		"oAP": "\/assets\/img\/roberta-drive\/10.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/roberta-drive\/11.png": {
+		"ft": 32768,
+		"iS": 44089,
+		"oA": 0,
+		"oAP": "\/assets\/img\/roberta-drive\/11.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/roberta-drive\/12.png": {
+		"ft": 32768,
+		"iS": 112457,
+		"oA": 0,
+		"oAP": "\/assets\/img\/roberta-drive\/12.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/roberta-drive\/2.JPG": {
+		"ft": 16384,
+		"iS": 360399,
+		"oA": 0,
+		"oAP": "\/assets\/img\/roberta-drive\/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/img\/roberta-drive\/3.JPG": {
+		"ft": 16384,
+		"iS": 315977,
+		"oA": 0,
+		"oAP": "\/assets\/img\/roberta-drive\/3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/img\/roberta-drive\/4.JPG": {
+		"ft": 16384,
+		"iS": 389167,
+		"oA": 0,
+		"oAP": "\/assets\/img\/roberta-drive\/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/img\/roberta-drive\/5.JPG": {
+		"ft": 16384,
+		"iS": 385282,
+		"oA": 0,
+		"oAP": "\/assets\/img\/roberta-drive\/5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/img\/roberta-drive\/6.JPG": {
+		"ft": 16384,
+		"iS": 380151,
+		"oA": 0,
+		"oAP": "\/assets\/img\/roberta-drive\/6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/img\/roberta-drive\/7.JPG": {
+		"ft": 16384,
+		"iS": 265358,
+		"oA": 0,
+		"oAP": "\/assets\/img\/roberta-drive\/7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/roberta-drive\/8.JPG": {
+		"ft": 16384,
+		"iS": 366255,
+		"oA": 0,
+		"oAP": "\/assets\/img\/roberta-drive\/8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/roberta-drive\/9.jpg": {
+		"ft": 16384,
+		"iS": 305808,
+		"oA": 0,
+		"oAP": "\/assets\/img\/roberta-drive\/9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/roberta-drive\/roberta-drive-hero.jpg": {
+		"ft": 16384,
+		"iS": 336053,
+		"oA": 0,
+		"oAP": "\/assets\/img\/roberta-drive\/roberta-drive-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/tara-zeiler.jpg": {
+		"ft": 16384,
+		"iS": 16968,
+		"oA": 0,
+		"oAP": "\/assets\/img\/tara-zeiler.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/js\/lib\/animation.gsap.js": {
 		"ft": 64,
