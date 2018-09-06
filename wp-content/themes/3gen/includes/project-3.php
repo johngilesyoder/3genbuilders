@@ -6,7 +6,7 @@
           <div class="col-md-10 col-md-offset-1">
             <span class="project-title-subtext">Coming in 2018</span>
             <h1 class="project-title">The Cottages at <br>Linda Vista</h1>
-            <span class="project-price">starting at <strong>$249,950</strong></span>
+            <span class="project-price">starting at <strong>$259,900</strong></span>
           </div>
         </div>
       </div>
