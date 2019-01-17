@@ -41,11 +41,11 @@
     <div class="row">
       <div class="col-md-6">
         <div class="project-description">
-          <p>2 bedroom, 2 1/2 bath, 1,284 square foot homes. Each home is situated on a zero-lot line lot on Shaver Drive in Linda Vista's upcoming phase. Each home includes a single car, attached garage.</p>
+          <p>2 bedroom, 2 1/2 bath, 1,284 square foot homes. Each home is situated on a zero-lot line lot on Shaver Drive in Linda Vista's newest phase. Each home includes a single car, attached garage.</p>
           <p>Large kitchen with generous appliance budget. Kitchen adjoins the dining and living rooms in a well-designed, open floorplan.</p>
           <p>2 generously sized bedrooms upstairs, each with it's own attached bathroom. Master bathroom includes shower and dual sinks.</p>
           <p>Customize your interior colors and finishes. Optional add-ons include: Gas fireplace, covered back patio and zero-step entry.</p>
-          <p>First units available in 2018. 8 homes available in this phase, with 2 currently reserved. Sign up here to stay up-to-date on the progress of these units.</p>
+          <p><em>Construction is under way now, with units scheduled to be completed throughout 2019.</em></p>
           <!-- <p class="project-location">Shaver Drive, Missoula, Montana <a href="#" class="map-link" target="_blank"><i class="material-icons">location_on</i>View on map</a></p> -->
         </div>
       </div>

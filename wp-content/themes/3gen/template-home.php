@@ -4,11 +4,11 @@
 
   <!-- Project -->
   <!-- =================================== -->
-  <?php get_template_part( 'includes/project-1' ); ?>
+  <?php //get_template_part( 'includes/project-1' ); ?>
 
   <!-- Project -->
   <!-- =================================== -->
-  <?php get_template_part( 'includes/project-2' ); ?>
+  <?php //get_template_part( 'includes/project-2' ); ?>
 
   <!-- Project -->
   <!-- =================================== -->
