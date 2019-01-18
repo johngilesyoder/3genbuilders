@@ -4,7 +4,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-10 col-md-offset-1">
-            <span class="project-title-subtext">Coming in 2018</span>
+            <span class="project-title-subtext">Construction is under way now</span>
             <h1 class="project-title">The Cottages at <br>Linda Vista</h1>
             <span class="project-price">starting at <strong>$259,900</strong></span>
           </div>
